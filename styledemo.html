@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html> 
-    <head> 
+    <head > 
         <title>fullstack</title>
 
     </head>
-    <body style="background-color: antiquewhite;">
+    <style> 
+    body { 
+        background-color: rgb(222, 238, 186);
+    }
+
+    ul  {
+        display: inline-block
+        
+    }
+    
+
+    .even ,.odd{
+        background-color: rgb(114, 219, 245);
+    }
+    
+     ul p {
+         color: crimson;
+     }   
+    
+     ul {
+         color: rgb(170, 54, 135);
+     }
+
+        </style>
+    <body>
         <h1>Title</h1>
         <p> No one is going to see this page. Go to google.com by clicking <a href="google.com">here</a> </p>
-            <ul style="background-color:rgb(233, 124, 124) ;">
-                
-            <li>One</li>git
+            <ul id="first">
+        <p>FIRST LIST</p>
+                <li class="odd">One</li>           
                 <li>Two</li>
-                 <li>Three</li>
+                <li  class="odd">Three</li>
                  <li>Four</li>
-                
+                 
             </ul>
 
-            <ul style="background-color:rgb(221, 116, 116) ;"> 
-                <li>One</li>
-                <li>Two</li>
-                <li>Three</li>
-                <li>Four</li>
+            <ul id="second">
+                <P>SECOND LIST</P>
+                <li>one</li>
+                <li  class="even" >Two</li>
+                <li >Three</li>
+                <li class="even">Four</li>
             </ul>
 
     </body>
